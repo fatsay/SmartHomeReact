@@ -1,0 +1,42 @@
+.login-wrap {
+    width: 300px;
+    height: 400px;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border: groove;
+    border-radius: 5px;
+
+
+}
+.centered {
+    margin-top: 30px;
+    text-align: center;
+}
+.input1 {
+    margin-top: 30px;
+    box-sizing: border-box;
+
+}
+.input2 {
+    margin-top: 10px;
+
+}
+.button {
+    margin-top: 20px;
+    width: 50px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #3fb6ea;
+}
+.forgot {
+    color: #f1f1f1;
+    margin-left: 85px;
+    font-size:larger;
+    font-family:"Copperplate Gothic Bold";
+
+}
+.forgot1 {
+    margin-top: 20px;
+}

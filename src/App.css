@@ -1,0 +1,244 @@
+
+.wrap-component {
+  width: 200px;
+  height: 110px;
+  margin-top: 20px;
+  margin-left: 0px;
+  border: groove;
+  border-radius: 10px;
+}
+.wrap-window-component {
+  width: 200px;
+  height: 110px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  background-color: #23294d;
+  border: groove;
+  border-radius: 10px;
+}
+
+.window-bottom {
+  width: 200px;
+  height: 20px;
+  background-color: #3fb6ea;
+  color: white;
+  text-align: center;
+}
+
+.display-component {
+  display: flex;
+  width: 200px;
+  height: 90px;
+  background-color: #4168be;
+}
+.display-component > div {
+  flex: 0px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.component-image {
+  margin-left: 4px;
+  margin-top: 2px;
+  float: left;
+}
+.component-state {
+  color: white;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 15px;
+  float: left;
+
+}
+
+.state-on-span {
+  font-family: "Arial Rounded MT Bold";
+}
+.state-off-span {
+  font-family: "Arial Rounded MT Bold";
+}
+.component-header {
+  text-align: center;
+  font-size: medium;
+  background-color: #4168be;
+  width: 200px;
+  height: 30px;
+  color: white;
+  border-bottom-style: ridge;
+
+}
+
+.button-on {
+  width: 99px;
+  background-color: #3fb6ea;
+  border: none;
+  border-radius: 0px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Arial Rounded MT Bold";
+  cursor: pointer;
+  margin-right: 0px;
+
+}
+.button-off {
+  width: 99px;
+  background-color:#3fb6ea;
+  border: none;
+  border-radius: 0px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Arial Rounded MT Bold";
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 0px;
+
+}
+
+.button-right{
+  float: right;
+
+}
+.button-left {
+  flex: left;
+
+}
+.picture-panel {
+  margin-left: 30px;
+  margin-top: 50px;
+  float: left;
+}
+.user-info {
+  float : right;
+  margin-left: 100px;
+}
+.wrap-control-panel {
+  margin-left: 750px;
+  margin-top: 30px;
+}
+.control-panel {
+  display: flex;
+}
+.control-panel > div {
+  flex:0;
+  margin-left: 10px;
+}
+
+
+
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding:10px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Style the header */
+.header {
+  overflow: hidden;
+  background-color: #464884;
+  padding: 20px 10px;
+  border-bottom: groove;
+
+}
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.log-out {
+
+}
